@@ -7,9 +7,8 @@ FREQUENCY <- "monthly"       # "daily", "weekly", "monthly" o "annual" esto ya s
 RISK_FREE_ANNUAL <- 0.0628    # CETES 28 dias % modificar si se ocupa
 N_RANDOM_PORTFOLIOS <- 20000 
 SEED <- 123
-ALLOW_SHORT_SELLING <- FALSE # Por ahora solo buscar posiciones largas
+ALLOW_SHORT_SELLING <- FALSE # for now just long positions
 
-#Dependencias
 if (!requireNamespace("quadprog", quietly = TRUE)) {
   stop("'quadprog' Missing. Install with install.packages('quadprog') and try again.")
 }
