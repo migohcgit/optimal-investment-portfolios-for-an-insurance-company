@@ -1,6 +1,0 @@
-.Rproj.user
-.Rhistory
-.RData
-output/*
-!output/.gitkeep
-.DS_Store
